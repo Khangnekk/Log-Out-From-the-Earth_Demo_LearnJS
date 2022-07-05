@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-left: 5em;
+    margin-top: 2em;
+}
+a{
+    text-decoration: none;
+}
+body {
+    background-image: url('Pic/Earth.jpg');
+    width: 100vh;
+    height: auto;
+    padding-left: 26%;
+    padding-top: 10em;
+}
+
+#log-out-form {
+    /* display: none; */
+    background-image: linear-gradient(to top left, #18bf7c, #3133c3);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 10px;
+    border: 5px solid #ccc;
+    color: #ccc;
+    font-family: Arial;
+}
+
+#Login {
+    display: none;
+    opacity: 80%;
+    background-image: linear-gradient(to top left, #18bf7c, #3133c3);
+    padding-top: 0.8em;
+    padding-bottom: 2em;
+    border-radius: 10px;
+    border: 5px solid #ccc;
+    color: #ccc;
+    font-family: Arial;
+    height: 50vh;
+}
+
+#serverOption {
+    width: 46%;
+    height: 90%;
+    float: left;
+    margin-top: 1em;
+    border-right: 2px solid #ccc;
+}
+
+#log-in-form {
+    width: 48%;
+    height: 90%;
+    float: left;
+    padding-top: 5em;
+    text-align: center;
+}
+
+#Submit{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.login{
+    background-color: #18bf7c;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    width: 7em;
+    height: 2em;
+    transition: ease 0.5s;
+}
+.login:hover{
+    height: 3em;
+}
+
+.SignUp{
+    margin-left: 3em;
+    background-color: #185ebf;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    width: 7em;
+    height: 2em;
+    transition: ease 0.5s;
+}
+
+.SignUp:hover{
+    height: 3em;
+}
+
+input{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#serverOption select {
+    text-align: center;
+    width: 8em;
+    height: 2em;
+    margin-left: 8em;
+    margin-top: 2em;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+#comfirm {
+    margin-top: 2em;
+    padding-left: 28%;
+}
+
+.yes {
+    background-color: #18bf7c;
+    border-radius: 6px;
+    border: 4px solid #ccc;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    width: 7em;
+    height: 3em;
+    transition: ease 0.5s;
+}
+
+.yes:hover {
+    transform: rotate(360deg);
+}
+
+
+.no {
+    margin-left: 5em;
+    background-color: #bf3418;
+    border-radius: 6px;
+    border: 4px solid #ccc;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    width: 7em;
+    height: 3em;
+    transition: ease 0.5s;
+}
+
+.no:hover {
+    transform: rotate(360deg);
+}

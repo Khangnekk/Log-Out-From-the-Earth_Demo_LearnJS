@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your life</title>
+    <link rel="shortcut icon" href="Pic/logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="logOutServer.js"></script>
+</head>
+
+<body>
+    <div id="log-out-form">
+        <h2>Đăng xuất khỏi trái đất</h2>
+        <h3>Bạn có chắc chắn sẽ đăng xuất khỏi server Trái Đất không?</h3>
+        <div id="comfirm">
+            <button class="yes" onclick="AgreeLogOut()">Có</button><button class="no"
+                onclick="DisagreeLogOut()">Không</button>
+        </div>
+    </div>
+    <div id="Login">
+        <h2>Login</h2>
+        <div id="serverOption">
+            <h3>Chọn server</h3>
+            <select id="gender" onchange="genderChanged(this)">
+                <option value="">-- Chọn --</option>
+                <option value="earth">Trái Đất</option>
+                <option value="heaven">Thiên Đường</option>
+                <option value="hell">Địa Ngục</option>
+                <option value="mars">Sao Hỏa</option>
+            </select>
+        </div>
+        <div id="log-in-form">
+            Username: <input id="username" type="text"><br>
+            Password: <input id="password" type="password"><br><br>
+            <button class="forgetPass" onclick="ForgetPass()">Quên mật khẩu?</button>
+            <div id="Submit">
+                <button class="login">Đăng nhập</button>
+                <button class="SignUp">Đăng ký</button>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
